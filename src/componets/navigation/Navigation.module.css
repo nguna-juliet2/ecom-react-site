@@ -1,0 +1,17 @@
+.containersection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+  }
+
+  .iconcenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+
+  .iconcenter span{
+    margin-left: 20px;
+  }
