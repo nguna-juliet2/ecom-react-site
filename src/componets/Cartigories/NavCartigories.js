@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './NavCartigories.module.css';
-import image1 from '../Assets/img2.png'
-import image2 from '../Assets/sideImage.png'
+import image1 from '../Assets/fristimg.png'
+import image2 from '../Assets/sideImage.png';
 const NavCartigories =()=>{
     return(
         <div className={classes.maindiv}>

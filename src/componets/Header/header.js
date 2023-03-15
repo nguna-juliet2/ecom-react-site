@@ -3,9 +3,11 @@
  import {Link} from 'react-router-dom';
  import Navigation from "../navigation/Navigation";
  import NavCartigories from "../Cartigories/NavCartigories";
+import ImageCards from "../ImageSelection/Imagecard.js";
 import classes from './Header.module.css';
+ 
 
-const Header = ()=>{
+const Header = (props)=>{
     return(
         <Fragment>
         <header className={classes.header}>
@@ -48,7 +50,7 @@ const Header = ()=>{
     </header>
     <Navigation/>
     <NavCartigories/>
-
+     
     </Fragment>
     )
 }

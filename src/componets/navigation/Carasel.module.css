@@ -1,0 +1,69 @@
+.carouselcontainer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.carouselcontainer > div {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+  }
+  .carouselcontainer img {
+    width: 10%;
+    height: auto;
+  }
+  
+  .carouselcontainer div h3 {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .carouselcontainer div p {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  .carouselcontainer::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+  
+  .carouselcontainer::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+  }
+  
+  .carouselcontainer::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 1rem;
+  }
+  
+  .carouselcontainer::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .cartegories{
+    flex: 1 1 20%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .cartegories ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .cartegories ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }

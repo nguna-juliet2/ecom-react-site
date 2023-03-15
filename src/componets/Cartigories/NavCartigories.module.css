@@ -5,13 +5,15 @@
 
 .categories {
     background-color: #f5f5f5;
-    padding: 20px;
+    padding:0 30px;
     margin-right: 20px;
     border: 1px solid #000;
+    height: 100vh;
      
   }
   .divTag{
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: rgb(61, 61, 215);
   }
   
   .categories h2 {
@@ -49,17 +51,21 @@
  .imgContainer{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 2rem;
  }
   
  .fristImg{
-    display: flex;
+     
     background-color: #d1cbcb;
-    /* padding: 2px 1px; */
     margin-top: 2rem;
+    height: 100vh;
      
  }
+ .fristImg div{
+    align-items: center;
+ }
  .fristImg img{
-    height: ;
+  height: 65vh;
  }
  .secDiv{
     background-color: yellow;
