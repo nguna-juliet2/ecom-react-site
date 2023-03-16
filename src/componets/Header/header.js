@@ -3,7 +3,6 @@
  import {Link} from 'react-router-dom';
  import Navigation from "../navigation/Navigation";
  import NavCartigories from "../Cartigories/NavCartigories";
-import ImageCards from "../ImageSelection/Imagecard.js";
 import classes from './Header.module.css';
  
 

@@ -18,7 +18,7 @@ import image17 from  '../images/image17.jpg';
 import image18 from  '../images/image18.jpg';
 import image19 from  '../images/image19.jpg';
  
-const CarouselData=[
+const SliderData=[
     {
         id: 'm1',
         image_url: image1,
@@ -37,7 +37,7 @@ const CarouselData=[
     },
     {
         id: 'm5',
-        image_url: image6,
+        image_url: image5,
     },
     {
         id: 'm6',
@@ -99,4 +99,4 @@ const CarouselData=[
 
  
 
-export default CarouselData;
+export default SliderData;

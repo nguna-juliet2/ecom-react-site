@@ -1,16 +1,13 @@
 import Header from './componets/Header/header';
-// import Data from './componets/Data/Data';
-// import Imagecard from './componets/ImageSelection/Imagecard.js';
-import Imagecard from './componets/ImageSelection/Imagecard.js';
-// import Sidebar from './componets/navigation/SideBar';
- import MyComponent from './componets/navigation/Carausel';
+import ImageCard from './componets/imageSelector/Imagecard';
+import MyComponent from './componets/navigation/Slider';
 import './App.css';
 
 const App=() =>{
   return (
      <div>
       <Header/>
-      <Imagecard />
+      <ImageCard />
        <MyComponent/>
        
       </div>
